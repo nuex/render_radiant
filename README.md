@@ -30,13 +30,9 @@ In your extension's controller, use the render :radiant command:
 
     end
 
-Page attributes can be overridden and/or set by passing in the page hash:
-
-   render :radiant, :page => { :title => @event.name }
-
 Page attributes can be overridden and/or set by passing in through the :radiant options hash:
 
-   render :radiant => { :title => @event.name, :breadcrumb => @event.name }
+    render :radiant => { :title => @event.name, :breadcrumb => @event.name }
 
 By default all instance variables declared in the action are assigned to the Radiant page's context to be called from your Radius tags.
 
