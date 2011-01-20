@@ -61,3 +61,7 @@ Currently render_radiant will override the page's title by passing in the :title
 ## RAILS 3 POSSIBILITIES
 
 Currently only Rails 2.3.8 (which is used by the current version of Radiant) is used. However, once Radiant adopts Rails 3, a custom Radiant renderer can be built, therefore making monkey-patching ActionController::Base unnecessary: http://www.engineyard.com/blog/2010/render-options-in-rails-3/
+
+## CREDIT
+
+This gem was inspired by Rubidine's ExtensionRendersRadiant library (https://github.com/rubidine/radiant_rbiz/blob/master/lib/extension_renders_radiant.rb), written by Todd Willey.
