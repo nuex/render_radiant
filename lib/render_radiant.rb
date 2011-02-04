@@ -51,7 +51,7 @@ module RenderRadiant
       raise DoubleRenderError, "Can only render or redirect once per action" if performed?
       validate_render_arguments(options, extra_options, block_given?)
 
-      options = options[:radiant]
+      options = (options.is_a?(Hash) ? options[:radiant] : nil)
 
       # Retrieve the action and controller to form a URL
       split_action = extra_options[:action].split('/') if extra_options[:action]
