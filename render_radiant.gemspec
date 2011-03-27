@@ -8,7 +8,6 @@ Gem::Specification.new do |s|
   s.authors = ['Chase James']
   s.email = 'nx@nu-ex.com'
   s.homepage = 'http://github.com/nuex/render_radiant'
-  s.add_dependency('actionpack', '= 2.3.8')
 
   s.files = %w[
     README.md
