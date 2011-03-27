@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'render_radiant'
-  s.version = '0.0.2'
+  s.version = '0.0.3'
   s.date = '2011-01-10'
   s.rubyforge_project = 'render_radiant'
   s.summary = 'ActionController overrides for using Radiant for rendering'
